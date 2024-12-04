@@ -10,7 +10,7 @@ export default async function Layout({ children }: { children: React.ReactNode }
   return (
     <SidebarProvider defaultOpen={defaultOpen}>
       <AppSidebar />
-      <main>
+      <main className="size-full px-8 py-6">
         <SidebarTrigger />
         {children}
       </main>
