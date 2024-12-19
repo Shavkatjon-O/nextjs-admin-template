@@ -1,8 +1,6 @@
-Django
 
-# Rest Framework
-djangorestframework
-djangorestframework-simplejwt
 
-# Env
-python-dotenv
+fastapi
+uvicorn[standard]
+gunicorn
+alembic
